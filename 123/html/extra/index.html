@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturday Activities Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => section.style.display = 'none');
+
+            // Show the selected section
+            const selectedSection = document.getElementById(sectionId);
+            if (selectedSection) {
+                selectedSection.style.display = 'block';
+            }
+        }
+
+        // Show the default section on page load
+        window.onload = function() {
+            showSection('main-dashboard'); // Default section to show
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Saturday Activities Dashboard</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showSection('events')">Events</a>
+        <a href="#" onclick="showSection('activity-details')">Activity Details</a>
+        <a href="#" onclick="showSection('team-details')">Team Details</a>
+        <a href="#" onclick="showSection('main-dashboard')">Main Dashboard</a>
+    </nav>
+    <div class="container">
+        <section id="events">
+            <h2>Events</h2>
+            <div class="event">
+                <h3>Event 1</h3>
+                <p>Date: 03/08/2024</p>
+                <p><i>Photos and videos will be added soon.</i></p>
+                
+                    <h2>Event 1: Sports Activity </h2>
+                    <p><strong>Organizer:</strong> Neel Sir</p>
+                    <p><strong>Description:</strong> The inaugural event of our Saturday activities was a thrilling Sports Activity, designed to energize participants and encourage camaraderie. The event featured a variety of sports, including creating an engaging and competitive atmosphere.</p>
+                    <p><strong>Prize Pool:</strong> 200 points (allocated for cricket-related activities)</p>
+                    <p><strong>Winners:</strong></p>
+                    <ul>
+                        <li><strong>Team Mohit</strong>: 100 points</li>
+                        <li><strong>Team Mahir</strong>: 100 points</li>
+                    </ul>
+                    <p>The event was a great success, with both winning teams showcasing impressive athletic abilities and strategic play. Congratulations to all participants for their enthusiasm and sportsmanship!</p>
+                
+                
+            </div>
+            <div class="event">
+                <h3>Event 2</h3>
+                <p>Date: 10/08/2024</p>
+                <p><i>Photos and videos will be added soon.</i></p>
+            </div>
+            <div class="event">
+                <h3>Event 3</h3>
+                <p>Date: 24/08/2024</p>
+                <p><i>Photos and videos will be added soon.</i></p>
+            </div>
+            <div class="event">
+                <h3>Event 4</h3>
+                <p>Date: 31/08/2024</p>
+                <p><i>Photos and videos will be added soon.</i></p>
+            </div>
+        </section>
+
+        <section id="activity-details">
+            <h2>Activity Details</h2>
+            <p>Details of each activity type (coding, sports, etc.) and what is included.</p>
+        </section>
+
+        <section id="team-details">
+            <h2>Team Details</h2>
+            <div class="team">
+                <h3>Team 1</h3>
+                <p>Members and auction prices:</p>
+                <ul>
+                    <li>Member 1 - ₹X</li>
+                    <li>Member 2 - ₹Y</li>
+                </ul>
+            </div>
+            <div class="team">
+                <h3>Team 2</h3>
+                <p>Members and auction prices:</p>
+                <ul>
+                    <li>Member 1 - ₹X</li>
+                    <li>Member 2 - ₹Y</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="main-dashboard">
+            <h2>Main Dashboard</h2>
+            <p>Updated record of activities and points:</p>
+            <ol>
+                <li>Highest points: Team Mohit - X points</li>
+                <li>Second highest points: Team Mahir - 207 points</li>
+                <li>third highest points: Team jenil -  points</li>
+                <li>fourth highest points: Team priyasha -  points</li>
+            </ol>
+        </section>
+    </div>
+    <footer>
+        <p>Website created as part of the Coding Gita program. Created by [Dax Patel].</p>
+    </footer>
+</body>
+</html>
