@@ -4,7 +4,7 @@ a=5;
 if (a%2 == 0){
     console.log("even")
 }else{
-    console.assert.log("odd")
+    console.assert.log("even")
 }
 
 
