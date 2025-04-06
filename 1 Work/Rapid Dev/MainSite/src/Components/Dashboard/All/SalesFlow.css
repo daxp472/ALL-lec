@@ -1,0 +1,38 @@
+.sales-flow {
+    background-color: #242a38;
+    border-radius: 8px;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .sales-list {
+    margin-top: 20px;
+  }
+  
+  .sales-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #2f3643;
+  }
+  
+  .sales-item:last-child {
+    border-bottom: none;
+  }
+  
+  .sales-type {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .sales-label {
+    font-size: 13px;
+    color: #8c8e94;
+  }
+  
+  .sales-total {
+    font-size: 18px;
+    font-weight: 500;
+  }

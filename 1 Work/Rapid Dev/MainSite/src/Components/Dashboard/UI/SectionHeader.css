@@ -1,0 +1,22 @@
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.section-header .section-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-header .section-link {
+  color: #4a80f0;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.section-header .section-link:hover {
+  text-decoration: underline;
+}

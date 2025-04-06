@@ -1,0 +1,39 @@
+.summary-card {
+  padding: 15px;
+}
+
+.summary-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.summary-card-header h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #8c8e94;
+  font-weight: 500;
+}
+
+.trend-icon svg {
+  stroke: #4caf50;
+}
+
+.summary-card-amount {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.summary-card-change {
+  font-size: 12px;
+}
+
+.summary-card-change.positive {
+  color: #4caf50;
+}
+
+.summary-card-change.negative {
+  color: #ff5252;
+}

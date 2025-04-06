@@ -1,0 +1,61 @@
+.expense-details {
+    background-color: #242a38;
+    border-radius: 8px;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .expense-categories {
+    margin-top: 20px;
+  }
+  
+  .expense-category {
+    margin-bottom: 20px;
+  }
+  
+  .expense-category:last-child {
+    margin-bottom: 0;
+  }
+  
+  .category-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    color: #ff6b35;
+    border-bottom: 1px solid #2f3643;
+    padding-bottom: 8px;
+  }
+  
+  .expense-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #2f3643;
+  }
+  
+  .expense-item:last-child {
+    border-bottom: none;
+  }
+  
+  .expense-item-name {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  
+  .expense-item-date {
+    font-size: 12px;
+    color: #8c8e94;
+  }
+  
+  .expense-item-amount {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff5252;
+  }

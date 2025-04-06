@@ -1,0 +1,62 @@
+
+.revenue-details {
+    background-color: #242a38;
+    border-radius: 8px;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .revenue-categories {
+    margin-top: 20px;
+  }
+  
+  .revenue-category {
+    margin-bottom: 20px;
+  }
+  
+  .revenue-category:last-child {
+    margin-bottom: 0;
+  }
+  
+  .category-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    color: #4caf50;
+    border-bottom: 1px solid #2f3643;
+    padding-bottom: 8px;
+  }
+  
+  .revenue-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .revenue-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #2f3643;
+  }
+  
+  .revenue-item:last-child {
+    border-bottom: none;
+  }
+  
+  .revenue-item-name {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  
+  .revenue-item-date {
+    font-size: 12px;
+    color: #8c8e94;
+  }
+  
+  .revenue-item-amount {
+    font-size: 15px;
+    font-weight: 500;
+    color: #4caf50;
+  }

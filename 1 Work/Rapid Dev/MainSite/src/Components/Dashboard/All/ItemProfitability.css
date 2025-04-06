@@ -1,0 +1,54 @@
+.item-profitability {
+    background-color: #242a38;
+    border-radius: 8px;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .item-list {
+    margin-top: 20px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #2f3643;
+  }
+  
+  .item:last-child {
+    border-bottom: none;
+  }
+  
+  .item-name {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .item-sales {
+    font-size: 13px;
+    color: #8c8e94;
+  }
+  
+  .item-profit-container {
+    text-align: right;
+  }
+  
+  .item-profit {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .item-margin {
+    font-size: 13px;
+  }
+  
+  .positive {
+    color: #4caf50;
+  }
+  
+  .negative {
+    color: #ff5252;
+  }

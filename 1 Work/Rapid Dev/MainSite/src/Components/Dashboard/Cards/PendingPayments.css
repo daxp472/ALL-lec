@@ -1,0 +1,64 @@
+.pending-payments {
+    background-color: #242a38;
+    border-radius: 8px;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .pending-table {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .table-header {
+    display: grid;
+    grid-template-columns: 0.8fr 1.5fr 1fr 1fr 0.8fr;
+    padding: 12px 0;
+    border-bottom: 1px solid #2f3643;
+    font-weight: 500;
+    color: #8c8e94;
+    font-size: 13px;
+  }
+  
+  .table-row {
+    display: grid;
+    grid-template-columns: 0.8fr 1.5fr 1fr 1fr 0.8fr;
+    padding: 12px 0;
+    border-bottom: 1px solid #2f3643;
+    align-items: center;
+  }
+  
+  .table-row:last-child {
+    border-bottom: none;
+  }
+  
+  .row-item.id {
+    color: #8c8e94;
+    font-size: 13px;
+  }
+  
+  .row-item.customer {
+    font-weight: 500;
+  }
+  
+  .row-item.amount {
+    font-weight: 500;
+  }
+  
+  .row-item.status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .row-item.status.pending {
+    background-color: #2d4263;
+    color: #64b5f6;
+  }
+  
+  .row-item.status.overdue {
+    background-color: #5d2a42;
+    color: #ff5252;
+  }

@@ -1,0 +1,20 @@
+.category-breakdown {
+    margin-top: 5px;
+    border-top: 1px solid #2f3643;
+    padding: 10px 15px;
+  }
+  
+  .category-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-size: 13px;
+  }
+  
+  .category-name {
+    color: #8c8e94;
+  }
+  
+  .category-value {
+    font-weight: 500;
+  }

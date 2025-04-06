@@ -1,0 +1,24 @@
+.summary-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .summary-card-container {
+    background-color: #242a38;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 1200px) {
+    .summary-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .summary-cards {
+      grid-template-columns: 1fr;
+    }
+  }
